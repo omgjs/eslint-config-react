@@ -2,6 +2,9 @@
 	"name": "@omgjs/eslint-config-react",
 	"version": "1.0.0",
 	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
 	"description": "ESLint config in node module",
 	"main": "eslint-config-react.js",
 	"scripts": {
