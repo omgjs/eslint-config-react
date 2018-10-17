@@ -1,0 +1,28 @@
+{
+	"name": "@omgjs/eslint-config-react",
+	"version": "1.0.0",
+	"private": false,
+	"description": "ESLint config in node module",
+	"main": "eslint-config-react.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omgjs/eslint-config-react.git"
+	},
+	"keywords": [
+		"eslint",
+		"javascript",
+		"linting",
+		"ecmascript",
+		"prettier",
+		"babel"
+	],
+	"author": "Artem Korolev",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/omgjs/eslint-config-react/issues"
+	},
+	"homepage": "https://github.com/omgjs/eslint-config-react#readme"
+}
