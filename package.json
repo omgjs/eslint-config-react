@@ -26,5 +26,39 @@
 	"bugs": {
 		"url": "https://github.com/omgjs/eslint-config-react/issues"
 	},
-	"homepage": "https://github.com/omgjs/eslint-config-react#readme"
+	"homepage": "https://github.com/omgjs/eslint-config-react#readme",
+	"babel": {
+		"extends": "@omgjs/babel-config-react"
+	},
+	"devDependencies": {
+		"@omgjs/babel-config-react": "x",
+		"@omgjs/prettier-config-react": "x",
+		"eslint": "5.x",
+		"eslint-config-airbnb": "17.x",
+		"eslint-config-prettier": "3.x",
+		"eslint-loader": "2.x",
+		"eslint-plugin-import": "2.x",
+		"eslint-plugin-jest": "21.x",
+		"eslint-plugin-jsx-a11y": "6.x",
+		"eslint-plugin-markdown": "^1.0.0-beta.6",
+		"eslint-plugin-prettier": "2.x",
+		"eslint-plugin-react": "7.x",
+		"eslint-watch": "4.x",
+		"babel-eslint": "10.x",
+		"prettier": "1.x"
+	},
+	"peerDependencies": {
+		"eslint": "5.x",
+		"eslint-config-airbnb": "17.x",
+		"eslint-config-prettier": "3.x",
+		"eslint-loader": "2.x",
+		"eslint-plugin-import": "2.x",
+		"eslint-plugin-jest": "21.x",
+		"eslint-plugin-jsx-a11y": "6.x",
+		"eslint-plugin-markdown": "1.x",
+		"eslint-plugin-prettier": "2.x",
+		"eslint-plugin-react": "7.x",
+		"eslint-watch": "4.x",
+		"babel-eslint": "10.x"
+	}
 }
