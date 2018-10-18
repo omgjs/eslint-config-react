@@ -6,7 +6,7 @@
 		"access": "public"
 	},
 	"description": "ESLint config in node module",
-	"main": "eslint-config-react.js",
+	"main": "src/eslint-config-react.js",
 	"scripts": {
 		"test": "echo \"Warning: this package comes without tests\" && exit 0"
 	},
